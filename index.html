@@ -1,47 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakesh Shrestha — Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Urbanist:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-
-    <title>Lakesh Shrestha</title>
 </head>
-
 <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-info">
-        <a class="navbar-brand" href="http://lakesh.pythonanywhere.com/python/">LS</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item ">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link ">Disabled</a>
-                </li>
-            </ul>
-        </div>
+    <!-- Navigation -->
+    <nav id="nav">
+        <div class="logo">Lakesh</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </nav>
 
-    <center>hell bishwash
-    </center>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="texture-overlay"></div>
+            <div class="organic-blob blob-1"></div>
+            <div class="organic-blob blob-2"></div>
+            <div class="organic-blob blob-3"></div>
+            <div class="deco-frame frame-1"></div>
+            <div class="deco-frame frame-2"></div>
+            <div class="ornament ornament-1">✦</div>
+            <div class="ornament ornament-2">✧</div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-divider"></div>
+            <div class="hero-label">Computer Engineer</div>
+            <h1>Lakesh Shrestha</h1>
+            <p class="hero-subtitle">Crafting Digital Experiences</p>
+            <p class="hero-description">
+                I design and develop modern web applications with JavaScript-driven interfaces, 
+                elegant backend architectures, and intelligent data solutions. My focus is on 
+                creating scalable systems through clean code and thoughtful design.
+            </p>
+            <div class="cta-container">
+                <a href="#projects" class="btn btn-primary">
+                    <span>Explore My Work</span>
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <span>Let's Connect</span>
+                </a>
+            </div>
+        </div>
 
+        <div class="scroll-hint">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
 
+    <!-- About Section -->
+    <section id="about">
+        <div class="section-ornament"></div>
+        <div class="section-number">01 — About</div>
+        <h2 class="section-title">Building with Purpose</h2>
+        <p class="section-subtitle">
+            Every line of code tells a story. Mine is about creating meaningful digital experiences.
+        </p>
+        <div class="about-grid">
+            <div class="about-text">
+                <p>I’m Lakesh Shrestha, a software engineer and ML enthusiast focused on building intelligent, scalable applications with Python and Django. I enjoy learning by building and turning ideas into working systems..</p>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">Years Coding</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">8+</div>
+                    <div class="stat-label">Projects</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">10+</div>
+                    <div class="stat-label">Technologies</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">∞</div>
+                    <div class="stat-label">Passion</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="section-ornament"></div>
+        <div class="section-number">02 — Education</div>
+        <h2 class="section-title">Learning Journey</h2>
+        <p class="section-subtitle">
+            The foundation of knowledge that shapes my approach to problem-solving.
+        </p>
+        <div class="timeline-container">
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-card">
+                        <h3>Bachelor's in Computer Engineering</h3>
+                        <div class="timeline-meta">IOE, Kantipur Engineering College</div>
+                        <div class="timeline-period">2020 – 2025</div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-card">
+                        <h3>Higher Secondary</h3>
+                        <div class="timeline-meta">Nepal Police School, Kavre</div>
+                        <div class="timeline-period">2018 – 2020</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="section-ornament"></div>
+        <div class="section-number">03 — Skills</div>
+        <h2 class="section-title">Technical Arsenal</h2>
+        <p class="section-subtitle">
+            A carefully curated set of tools and technologies for building exceptional digital products.
+        </p>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-icon">⚡</div>
+                <h3>Frontend</h3>
+                <p>JavaScript (ES6+), React, HTML, CSS</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">⚙️</div>
+                <h3>Backend</h3>
+                <p>Node.js, Django, FastAPI, REST APIs</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">🧠</div>
+                <h3>Data & ML</h3>
+                <p>Python, PyTorch, TensorFlow, Computer Vision</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">🔨</div>
+                <h3>Tools</h3>
+                <p>Git, GitHub, Postman, Linux, SQL</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="section-ornament"></div>
+        <div class="section-number">04 — Projects</div>
+        <h2 class="section-title">Selected Works</h2>
+        <p class="section-subtitle">
+            A showcase of projects that demonstrate my approach to solving real-world challenges.
+        </p>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-header">
+                    <div class="project-number">01</div>
+                </div>
+                <div class="project-body">
+                    <h3>QA Website</h3>
+                    <p>Django-based full stack Q&A platform</p>
+                    <div class="project-link">View Project</div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-header">
+                    <div class="project-number">02</div>
+                </div>
+                <div class="project-body">
+                    <h3>SnapTag</h3>
+                    <p>OCR + NER powered handwritten note search</p>
+                    <div class="project-link">View Project</div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-header">
+                    <div class="project-number">03</div>
+                </div>
+                <div class="project-body">
+                    <h3>IDM Virtual Try-On</h3>
+                    <p>Deep learning garment visualization</p>
+                    <div class="project-link">View Project</div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-header">
+                    <div class="project-number">04</div>
+                </div>
+                <div class="project-body">
+                    <h3>Dogs vs Cats</h3>
+                    <p>CNN image classification</p>
+                    <div class="project-link">View Project</div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-header">
+                    <div class="project-number">05</div>
+                </div>
+                <div class="project-body">
+                    <h3>Text Classification</h3>
+                    <p>NLP categorization system</p>
+                    <div class="project-link">View Project</div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-header">
+                    <div class="project-number">06</div>
+                </div>
+                <div class="project-body">
+                    <h3>Emotion Detection</h3>
+                    <p>Image-based SVM model</p>
+                    <div class="project-link">View Project</div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-header">
+                    <div class="project-number">07</div>
+                </div>
+                <div class="project-body">
+                    <h3>Async Task System</h3>
+                    <p>Celery, Redis, PostgreSQL</p>
+                    <div class="project-link">View Project</div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-header">
+                    <div class="project-number">08</div>
+                </div>
+                <div class="project-body">
+                    <h3>License Validation</h3>
+                    <p>RSA-secured Django middleware</p>
+                    <div class="project-link">View Project</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="section-ornament"></div>
+        <div class="section-number">05 — Contact</div>
+        <h2 class="section-title">Let's Create Together</h2>
+        <p class="section-subtitle">
+            Have a project in mind? I'd love to hear about it. Reach out through any channel below.
+        </p>
+        <div class="contact-grid">
+            <a href="mailto:lakeshshrestha82@gmail.com" class="contact-card">
+                <span class="contact-icon">📧</span>
+                <span class="contact-label">Email</span>
+            </a>
+            <a href="https://github.com/luckace82" target="_blank" class="contact-card">
+                <span class="contact-icon">💻</span>
+                <span class="contact-label">GitHub</span>
+            </a>
+            <a href="https://www.kaggle.com/lakeshshrestha" target="_blank" class="contact-card">
+                <span class="contact-icon">🏆</span>
+                <span class="contact-label">Kaggle</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p class="footer-text">© 2026 <span class="footer-highlight">Lakesh Shrestha</span> — Designed with Care</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
-
 </html>
